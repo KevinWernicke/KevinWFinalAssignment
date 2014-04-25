@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>XTOUCH</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="styles/tooltipster.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.tooltipster.min.js"></script>
+	<!-- jQuery library (served from Google) -->
+	<!-- bxSlider Javascript file -->
+	<script src="scripts/jquery.bxslider.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	  		$('.bxslider').bxSlider();
+	  		$('.tooltip').tooltipster({
+            	contentAsHTML: true                   
+            });
+	  		$('p').click(function(){
+	  			$('p').css("background", "#F00")
+	  		});
+
+		});
+	</script>
+</head>
+<body>
+
+<!-- ******************Header**************************** -->
+	<header>
+		<div id="info">
+			<img src="images/xtouchlogo.png">
+			<h1>Media Player</h1>
+			<p>New to the XTOUCH line comes XTOUCH Media Player with the power of accessing your music library on any surface. For the times when you can't touch your phone to change a song XTOUCH Media Player allows you to easily setup the virtual buttons you need to browse through your songs and play them. XTOUCH Media Player make every surface rock and roll!</p>	
+		</div>
+
+		<ul class="bxslider">
+		  <li><img src="images/phone1.jpg"></li>
+		  <li><img src="images/phone2.jpg"></li>
+		  <li><img src="images/phone3.jpg"></li>
+		  <li><img src="images/phone4.jpg"></li>
+		  <li><img src="images/phone5.jpg"></li>
+		  <li><img src="images/phone6.jpg"></li>
+		  <li><img src="images/phone7.jpg"></li>
+		</ul>
+	</header>
+
+<!-- ******************Main Info**************************** -->
+	<div id="mainInfo">
+		<section id="leftSide">
+			<div id="apple"></div>
+			<h2>Iphone/Ipad</h2>
+			<p>XTOUCH software right now is only supported on Iphone and Ipad Devices. XTOUCH is supported by Apple because the software needs their highly advanced built-in microphone to hear for any user taps on surfaces.
+			</p>
+		</section>
+
+		<section id="middle">
+			<div id="xtouch"></div>
+			<h2>XTOUCH</h2>
+			<p>XTOUCH is a promising new technology that works by intergating the built-in microphone to listen for taps you produce on any hard surface. XTOUCH currently has two apps out in the App Store and they are:<div class="tooltip" title="Link to Magic-Xylophone on the App Store."><a href="https://itunes.apple.com/us/app/magic-xylophone/id839685101" target="_blank"><strong>Magic Xylophone</strong></a></div><br><div class="tooltip" title="Link to Voodoo Tap Frogs on the App Store."><a href="https://itunes.apple.com/us/app/voodoo-tap-frogs/id800914884" target="_blank"><strong>Voodoo Tap Frogs</strong></a></div>.</p>
+		</section>
+
+		<section id="rightSide">
+			<div id="features"></div>
+			<h2>Features</h2>
+			<p>XTOUCH Media Player allows anyone to have their music library at the tap of a surface. With many different icons to choose from you make the choice of the virtual buttons you want tappable access to. If you get lost don't worry there is an easy access tutorial within the app to help guide you along the way.</p>
+		</section>
+	</div>
+
+<!-- ******************Footer**************************** -->
+	<footer>
+		<h2>Enter your email to get the XTOUCH Media Player on your Iphone and Tablet!</h2>
+		<form>
+			Email: <input id="inputEmail" placeholder="johnsmith@gmail.com" type="email" name="user">
+			<input id="sendButton" type="submit" value="Send"><br>
+			<input type="checkbox" name="subscribe" value="subscribe">Would you like to get important update information?
+		</form>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,284 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 3em;
+	color: white;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif, "Segoe UI", Optima, Arial, sans-serif; 
+	font-size: 2em;
+	font-weight: 10px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*---------------HEADER-------------*/
+
+header {
+	margin: 0 auto;
+	color: white;
+	background-color: black;
+}
+
+header p {
+	padding: 40px 30px
+}
+
+header img {
+	width: 100%;
+}
+
+#info {
+	width: 50%;
+	text-align: center;
+	padding: 10% 60px;
+	margin-left: 60px;
+	position: absolute;
+	top: -50px;
+	z-index: 9999;
+}
+
+/*---------------Main Info-------------*/
+
+#mainInfo { /* its not working*/
+	clear: both;
+	max-width: 100%;
+	background: url('../images/background.jpg') no-repeat;
+	background-size: cover;
+}
+
+/*---------------leftSide-------------*/
+#leftSide {
+	max-width: 33.3%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+	padding: 70px 60px;
+}
+
+#apple {
+	background: url('../images/applelogo.png') no-repeat;
+	width: 160px;
+	height: 190px;
+	margin: 0 auto;
+}
+
+/*---------------Middle-------------*/
+#middle {
+	float: left;
+	max-width: 33.3%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 70px 60px;
+}
+
+#xtouch {
+	background: url('../images/xtouchsdk.png') no-repeat;
+	width: 160px;
+	height: 190px;
+	margin:0 auto;
+}
+
+/*---------------rightSide-------------*/
+#rightSide {
+	float: left;
+	max-width: 33.3%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 70px 60px;
+}
+
+#features {
+	background: url('../images/featuresPic.png') no-repeat;
+	width: 160px;
+	height: 190px;
+	margin:0 auto;
+}
+
+/*---------------Footer-------------*/
+
+footer {
+	clear: both;
+	width: 100%;
+	background: #000;
+	min-height: 500px;
+	padding: 150px 100px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+form {
+	font-family: 'Open Sans', sans-serif, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 1.5em;
+	padding-top: 150px;
+	width: 80%;
+	margin-left: 25%;
+}
+
+#inputEmail {
+	border-radius: 5px;
+	padding: 0 10px;
+}
+
+#sendButton {
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	background: #fff;
+	margin-left: 20px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+header p {
+	display: none;
+}	
+
+#info {
+	width: 50%;
+	padding: 10% 35px;
+	margin-left: 50px;
+	top: 5%;
+}
+
+/*---------------leftSide-------------*/
+#leftSide {
+	max-width: 100%;
+	padding: 0px 60px;
+}
+
+/*---------------Middle-------------*/
+#middle {
+	max-width: 100%;
+	padding: 0px 60px;
+}
+
+/*---------------rightSide-------------*/
+#rightSide {
+	max-width: 100%;
+	padding: 0px 60px;
+	padding-bottom: 30px;
+}
+
+/*---------------footer-------------*/
+footer {
+	padding: 80px 100px;
+}
+
+form {
+	font-size: 1em;
+	padding-top: 50px;
+	width: 100%;
+	margin-left: 15%;
+}
+
+#inputEmail {
+	border-radius: 5px;
+	padding: 0 5px;
+}
+
+#sendButton {
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	background: #fff;
+	margin: 30px 80px;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+h1 {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+header p {
+	display: none;
+}	
+
+header img {
+	width: 130%;
+}
+
+#info {
+	width: 50%;
+	padding: 5% 35px;
+	margin-left: 20px;
+	top: 5%;
+}
+
+/*---------------leftSide-------------*/
+#leftSide {
+	max-width: 100%;
+	padding: 0px 60px;
+}
+
+/*---------------Middle-------------*/
+#middle {
+	max-width: 100%;
+	padding: 0px 60px;
+}
+
+/*---------------rightSide-------------*/
+#rightSide {
+	max-width: 100%;
+	padding: 0px 60px;
+	padding-bottom: 30px;
+}
+
+/*---------------footer-------------*/
+footer {
+	padding: 50px 20px;
+}
+
+form {
+	font-size: 1em;
+	padding-top: 50px;
+	width: 100%;
+	margin-left: 1.5%;
+}
+
+#inputEmail {
+	border-radius: 5px;
+	padding: 0 5px;
+}
+
+#sendButton {
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+	background: #fff;
+	margin: 30px 80px;
+}
+
+}
